@@ -19,6 +19,6 @@ resource "aws_instance" "mule-server" {
   instance_type = "t2.small"
   vpc_security_group_ids  = ["sg-05b7aef37ece876c6"]
   tags = {
-    Name = "TerraformLocalDemo"
+    Name = "Instance run from Github Actions"
   }
 }
